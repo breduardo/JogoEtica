@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<ScenesCollection>
+	<Scenes>
+		<Scene>
+			<Id>scene1</Id>
+			<SceneImage>Fundo1</SceneImage>
+		</Scene>
+    <Scene>
+      <Id>scene2</Id>
+      <SceneImage>FundoTirinha1</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene3</Id>
+      <SceneImage>FundoTirinha2</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene4</Id>
+      <SceneImage>FundoTirinha3</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene5</Id>
+      <SceneImage>FundoTirinha4</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene6</Id>
+      <SceneImage>FundoTirinha5</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene7</Id>
+      <SceneImage>FundoTirinha6</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene8</Id>
+      <SceneImage>FundoTirinha7</SceneImage>
+    </Scene>
+    <Scene>
+      <Id>scene9</Id>
+      <SceneImage>FundoTirinha8</SceneImage>
+    </Scene>
+
+    <Scene>
+      <Id>fundoFinal</Id>
+      <SceneImage>FundoFinal1</SceneImage>
+    </Scene>
+
+    <Scene>
+      <Id>fundoeticaIntroducao</Id>
+      <SceneImage>FundoTirinha9</SceneImage>
+    </Scene>
+
+    <Scene>
+      <Id>fundoeticaIntroducao1</Id>
+      <SceneImage>FundoTirinha10</SceneImage>
+    </Scene>
+    
+    <Scene>
+      <Id>fundoeticaIntroducao2</Id>
+      <SceneImage>FundoTirinha11</SceneImage>
+    </Scene>
+
+    <Scene>
+      <Id>fundoeticaIntroducao3</Id>
+      <SceneImage>FundoTirinha12</SceneImage>
+    </Scene>
+    
+	</Scenes>
+</ScenesCollection>

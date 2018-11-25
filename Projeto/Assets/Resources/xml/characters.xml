@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<CharactersCollection>
+	<Characters>
+    
+    
+		<Character>
+			<Id>zeca</Id>
+			<Name>Zeca</Name>
+			<CharacterImage>Zeca</CharacterImage>
+		</Character>
+
+    <Character>
+      <Id>cebolinha</Id>
+      <Name>Cebolinha</Name>
+      <CharacterImage>Cebolinha</CharacterImage>
+    </Character>
+    
+    <Character>
+      <Id>cebolinhaBravo</Id>
+      <Name>Cebolinha</Name>
+      <CharacterImage>cebolinhaBravo</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>monica</Id>
+      <Name>Mônica</Name>
+      <CharacterImage>monica</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>zecao</Id>
+      <Name>Zecão</Name>
+      <CharacterImage>zecao</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>rita</Id>
+      <Name>Rita</Name>
+      <CharacterImage>Rita</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>monicaBrava</Id>
+      <Name>Mônica</Name>
+      <CharacterImage>monicaBrava</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>calvin</Id>
+      <Name>Calvin</Name>
+      <CharacterImage>calvin</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>haroldo</Id>
+      <Name>Haroldo</Name>
+      <CharacterImage>haroldo</CharacterImage>
+    </Character>
+    
+    <Character>
+      <Id>magali</Id>
+      <Name>Magali</Name>
+      <CharacterImage>magali</CharacterImage>
+    </Character>
+
+
+  </Characters>
+</CharactersCollection>

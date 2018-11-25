@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DialoguesCollection>
+	<Dialogues>
+    
+		<Dialog>
+			<Id>introducao</Id>
+			<Message>Você sabe o que é ética?</Message>
+			<IdScene>scene1</IdScene>
+			<IdCharacter>monica</IdCharacter>
+			<NextDialog>
+				<value>opcaoIntroducao1</value>>
+				<value>opcaoIntroducao2</value>
+			</NextDialog>
+		</Dialog>
+    
+        
+		<Dialog>
+			<Id>opcaoIntroducao1</Id>
+			<Message>Sim!</Message>
+			<NextDialog>
+				<value>respostaIntroducao1</value>
+			</NextDialog>
+		</Dialog>
+
+    <Dialog>
+      <Id>opcaoIntroducao2</Id>
+      <Message>Não!</Message>
+      <NextDialog>
+        <value>respostaIntroducao2</value>
+      </NextDialog>
+    </Dialog>
+    
+		<Dialog>
+			<Id>respostaIntroducao2</Id>
+			<Message>De acrodo com o filósof Mário Cortela, é um conjunto de princípios e valores de conduta que uma pessoa ou um grupo de pessoa tem.</Message>
+			<IdScene>scene1</IdScene>
+			<IdCharacter>magali</IdCharacter>
+			<NextDialog>
+				<value>dialogoZeca1</value>
+			</NextDialog>
+		</Dialog>
+    
+    
+		<Dialog>
+			<Id>respostaIntroducao1</Id>
+      <IdCharacter>monicaBrava</IdCharacter>
+			<Message>O Cebolinha anda sempre me provocando!</Message>
+			<IdScene>fundoeticaIntroducao</IdScene>
+			<NextDialog>
+				<value>Introducao1</value>
+			</NextDialog>
+		</Dialog>   
+    
+		<Dialog>
+			<Id>Introducao1</Id>
+			<IdScene>fundoeticaIntroducao1</IdScene>
+			<NextDialog>
+				<value>Introducao2</value>
+			</NextDialog>
+		</Dialog>    
+    
+		<Dialog>
+			<Id>Introducao2</Id>
+			<IdScene>fundoeticaIntroducao2</IdScene>
+			<NextDialog>
+				<value>Introducao3</value>
+			</NextDialog>
+		</Dialog>    
+    
+		<Dialog>
+			<Id>Introducao3</Id>
+			<IdScene>fundoeticaIntroducao3</IdScene>
+			<NextDialog>
+				<value>Introducao4</value>
+			</NextDialog>
+		</Dialog>
+    
+    <Dialog>
+			<Id>Introducao4</Id>
+			<IdScene>scene1</IdScene>
+			<IdCharacter>cebolinha</IdCharacter>
+			<Message>Cada pessoa tem a sua ética, mas para que possamos viver em sociedade é preciso organizar as coisas.</Message>
+			<NextDialog>
+				<value>dialogoZeca</value>
+			</NextDialog>
+		</Dialog>
+    
+		<Dialog>
+			<Id>dialogoZeca</Id>
+			<Message>Isso aí! Temos que levar vantagem em tudo!</Message>
+			<IdScene>scene1</IdScene>
+			<IdCharacter>zeca</IdCharacter>
+			<NextDialog>
+				<value>dialogoZeca1</value>
+			</NextDialog>
+		</Dialog>
+    
+    <Dialog>
+      <Id>dialogoZeca1</Id>
+      <Message>O que você vai fazer Zeca!?</Message>
+      <NextDialog>
+        <value>dialogoZeca2</value>
+      </NextDialog>
+      <IdCharacter>cebolinhaBravo</IdCharacter>
+      <IdScene>scene1</IdScene>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoZeca2</Id>
+      <Message>Só jogo bafo usando o truque do chiclete!</Message>
+      <IdScene>scene1</IdScene>
+      <IdCharacter>zeca</IdCharacter>
+      <NextDialog>
+        <value>opcao1</value>
+        <value>opcao2</value>
+      </NextDialog>
+    </Dialog>
+    
+		<Dialog>
+			<Id>opcao1</Id>
+			<Message>Isso não é certo!</Message>
+			<NextDialog>
+				<value>dialogoCarro</value>
+			</NextDialog>
+		</Dialog>
+
+    <Dialog>
+      <Id>opcao2</Id>
+      <Message>As vezes é preciso!</Message>
+      <NextDialog>
+        <value>respostaErrada</value>
+      </NextDialog>
+    </Dialog>
+
+
+    <Dialog>
+      <Id>respostaErrada</Id>
+      <IdCharacter>monicaBrava</IdCharacter>
+      <Message>O Zeca nunca aprende o que é errado ou certo!</Message>
+      <IdScene>scene2</IdScene>
+      <NextDialog>
+        <value>dialogoCarro</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoCarro</Id>
+      <Message>A lei do mais esperto está presente em todo lugar!</Message>
+      <IdScene>scene3</IdScene>
+      <NextDialog>
+        <value>dialogoZecao</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoZecao</Id>
+      <Message>Sou um funcionário fantasma, ganho sem trabalhar!</Message>
+      <IdScene>scene1</IdScene>
+      <IdCharacter>zecao</IdCharacter>
+      <NextDialog>
+        <value>dialogoRita</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoRita</Id>
+      <Message>Eu já vendo produtos sem Nota! De qualidade duvidosa! Comprou, azar seu!</Message>
+      <IdScene>scene1</IdScene>
+      <IdCharacter>rita</IdCharacter>
+      <NextDialog>
+        <value>dialogoPergunta</value>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoPergunta</Id>
+      <IdCharacter>monica</IdCharacter>
+      <Message>Você conhece pessoas como essas? Capazes de fazer qualquer coisa sem se importar, apenas para se darem bem.</Message>
+      <IdScene>scene1</IdScene>
+      <NextDialog>
+        <value>perguntaOp1</value>
+        <value>perguntaOp2</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>perguntaOp1</Id>
+      <Message>Eu sou uma delas!</Message>
+      <NextDialog>
+        <value>dialogoResposta1</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>perguntaOp2</Id>
+      <Message>Conheço algumas assim! Até mesmo o cebolinha</Message>
+      <NextDialog>
+        <value>dialogoResposta2</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoResposta1</Id>
+      <IdCharacter>monicaBrava</IdCharacter>
+      <Message>Isso não é nada bom, suas atitudes não te fazem uma pessoa melhor. Além de influenciar outras pessoas, ou até mesmo crianças a seguirem por este caminho. Pessoas de grandes responsabilidades agem da mesma forma, sem se preocuparem em causar mau à outras pessoas!</Message>
+      <IdScene>scene1</IdScene>
+      <NextDialog>
+        <value>dialogoTirinha3</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoResposta2</Id>
+      <IdCharacter>monicaBrava</IdCharacter>
+      <Message>Eu lembro desse dia. Fiquei muito furiosa com o cebolinha.</Message>
+      <IdScene>scene5</IdScene>
+      <NextDialog>
+        <value>dialogoTirinha</value>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoTirinha</Id>
+      <IdScene>scene5</IdScene>
+      <NextDialog>
+        <value>dialogoTirinha5</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoTirinha5</Id>
+      <Message></Message>
+      <IdScene>scene6</IdScene>
+      <NextDialog>
+        <value>dialogoTirinha6</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoTirinha6</Id>
+      <Message></Message>
+      <IdScene>scene7</IdScene>
+      <NextDialog>
+        <value>dialogoTirinha7</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoTirinha7</Id>
+      <Message></Message>
+      <IdScene>scene8</IdScene>
+      <NextDialog>
+        <value>dialogoTirinha8</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoTirinha8</Id>
+      <Message></Message>
+      <IdScene>scene9</IdScene>
+      <NextDialog>
+        <value>dialogoFinal</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoFinal</Id>
+      <IdCharacter>monica</IdCharacter>
+      <Message>Ética, um assunto discutido há mais de 2400 anos, continua sendo um tema muito atual e necessário! Mas como reconhecer o que é uma atitude ética? Tenha sempre em mente na hora de agir... Ética é tudo que for bom, justo, verdadeiro, correto e nobre. Se queremos um mundo melhor, vamos agir agora! A mudança começa por nós!</Message>
+      <IdScene>scene1</IdScene>
+      <NextDialog>
+        <value>dialogoFinal2</value>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoFinal2</Id>
+      <Message></Message>
+      <IdScene>fundoFinal</IdScene>
+      <NextDialog>
+        <value></value>
+      </NextDialog>
+    </Dialog>
+
+
+    <Dialog>
+      <Id>dialogoTirinha3</Id>
+      <IdCharacter>monicaBrava</IdCharacter>
+      <Message>Olhe como essas pessoas interferem na vida de outras pessoas como se fosse um jogo!</Message>
+      <IdScene>scene4</IdScene>
+      <NextDialog>
+        <value>dialogoCalvin</value>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoCalvin</Id>
+      <IdCharacter>calvin</IdCharacter>
+      <Message>É como eu disse ao Haroldo. Quase todo mundo trapaceia uma vez, pelo menos. As pessoas burlam as regras e acham que podem se dar bem. Às pessoas interessa o êxito, não os princípios. Mas.. quem sabe o mundo não é um desastre por causa disso.</Message>
+      <IdScene>scene1</IdScene>
+      <NextDialog>
+        <value>dialogoHaroldo</value>
+      </NextDialog>
+    </Dialog> 
+    
+    <Dialog>
+      <Id>dialogoCalvin</Id>
+      <IdCharacter>haroldo</IdCharacter>
+      <Message>Sem o estudo crítico da ética, dos costumes, as pessoas são levadas a crer que os costumes são do modo como deveriam ser, e não os questionam, de modo que podem agir sem grandes preocupações, não refletem se suas ações são boas ou más, pois acreditam que elas são como deveriam ser.</Message>
+      <IdScene>scene1</IdScene>
+      <NextDialog>
+        <value>dialogoHaroldo</value>
+      </NextDialog>
+    </Dialog>
+    
+  
+
+    
+  </Dialogues>
+</DialoguesCollection>
