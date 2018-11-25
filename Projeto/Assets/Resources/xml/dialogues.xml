@@ -305,12 +305,12 @@
     </Dialog> 
     
     <Dialog>
-      <Id>dialogoCalvin</Id>
+      <Id>dialogoHaroldo</Id>
       <IdCharacter>haroldo</IdCharacter>
       <Message>Sem o estudo crítico da ética, dos costumes, as pessoas são levadas a crer que os costumes são do modo como deveriam ser, e não os questionam, de modo que podem agir sem grandes preocupações, não refletem se suas ações são boas ou más, pois acreditam que elas são como deveriam ser.</Message>
       <IdScene>scene1</IdScene>
       <NextDialog>
-        <value>dialogoHaroldo</value>
+        <value>dialogoFinal2</value>
       </NextDialog>
     </Dialog>
     
